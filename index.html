@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Em Busca do Tesouro Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cowboy-inicio.png" alt="Cowboy no início da jornada">
+            <p>Você é um cowboy em uma missão para encontrar um tesouro perdido no Velho Oeste. Sua jornada começa agora! Qual caminho você vai seguir?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a cidade fantasma</button>
+            <button class="btn-proximo" data-proximo="2">Viajar para o deserto</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Na cidade fantasma, você encontra um velho xerife que menciona um mapa escondido. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Perguntar ao xerife sobre o mapa</button>
+            <button class="btn-proximo" data-proximo="4">Explorar os saloons</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você viaja pelo deserto e encontra uma antiga mina abandonada. Qual é o seu próximo passo?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a mina</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para a cidade fantasma</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O xerife revela que o mapa está escondido atrás de um retrato no salão principal da cidade. Você segue a pista.</p>
+            <button class="btn-proximo" data-proximo="7">Buscar o mapa no salão</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Nos saloons, você encontra apenas informações vagas. Parece que a pista do mapa não está aqui.</p>
+            <button class="btn-proximo" data-proximo="2">Voltar para o deserto</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na mina, você encontra um antigo baú com um pedaço do mapa. O baú indica que a próxima pista está na caverna próxima.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar a caverna</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>De volta à cidade fantasma, você decide procurar o xerife novamente para mais informações.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a cidade fantasma</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você encontra o mapa atrás do retrato. O mapa revela a localização do tesouro em uma antiga caverna no deserto.</p>
+            <button class="btn-proximo" data-proximo="8">Viajar para a caverna no deserto</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/caverna-tesouro.png" alt="Tesouro encontrado na caverna">
+            <p>Na caverna, você encontra o tesouro perdido! Parabéns, você completou sua missão com sucesso.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
