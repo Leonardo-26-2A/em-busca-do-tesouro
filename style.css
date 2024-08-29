@@ -2,7 +2,7 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('caverna-tesouro.png') no-repeat center center fixed;
+    /*background: url('caverna-tesouro.png') no-repeat center center fixed;*/
     background-size: cover;
     color: #fff; /* Cor do texto para garantir contraste com a imagem de fundo */
 }
@@ -13,8 +13,7 @@ main {
     border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
 }
 
-    overflow: hidden;
-}
+
 
 main {
     display: flex;
