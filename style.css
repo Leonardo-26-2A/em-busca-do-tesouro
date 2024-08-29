@@ -1,9 +1,18 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
     margin: 0;
     padding: 0;
+    background: url('img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; /* Cor do texto para garantir contraste com a imagem de fundo */
+}
+
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o conteúdo */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+}
+
     overflow: hidden;
 }
 
